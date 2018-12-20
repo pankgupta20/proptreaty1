@@ -1,0 +1,814 @@
+---
+- name: I have constructed a valid GET request
+  uid: aa921e50-13ac-4302-b693-42ca5c55a9e5
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I submit the request the proportional treaty api
+  uid: 028ec5c5-831b-43f8-908c-8f9b4a166caa
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'the correct information is returned '
+  uid: dda8159a-a788-4279-8ca6-c674e0c6f637
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the response conforms to the Richardson maturity model level 2
+  uid: ebfbce48-1156-4c07-b6c9-06051e7eec54
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: a 200 OK response is returned
+  uid: 4ff7676d-ed13-48dc-ac2c-4a622fe20abf
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I have constructed an invalid GET request
+  uid: 24acf81d-ba91-4acf-8009-11c94fb872fa
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: a 400 bad request is returned
+  uid: f664c1da-fcd0-4694-979c-a622bab1738e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: a 500 server error is returned
+  uid: 44bc862b-f8f5-4a19-855f-4120adfabe5d
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: full details of the error are visible in the platform logging system
+  uid: df9027cf-ec45-4a31-8d3a-5d3dda8257bb
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I have created a request with an invalid http verb
+  uid: c48d37c2-3fb3-48bb-a64f-2a2bfd0b0eda
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: there is no information in the request body or headers that can compromise
+    the security of the platform
+  uid: b4efb5f0-41e5-4acb-bbbc-e7a7b09abc47
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'the endpoint is not a valid route on the api '
+  uid: 449a764b-9fcf-4bad-bcf8-6f2f56a6c6a3
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: a 404 not found request is returned
+  uid: 8a66b4ed-fca6-417e-acd3-bc0a05302ab6
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I have constructed a valid POST request
+  uid: 3cda4c48-413d-442b-b2c7-33194d32f8c8
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: something is persisted
+  uid: 8e867c6e-e544-44a4-9c2c-0bbe190395c4
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I have constructed an invalid POST request
+  uid: 69d2c6c3-0723-4dad-a05d-0c6c6da3496c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: nothing is persisted
+  uid: 0f29d7ba-94ea-4aaf-8d75-4d635d9760d0
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I have constructed a valid POST request with invalid data
+  uid: ed3ec50c-0f19-4a5d-bf9c-886a95f4e628
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I visited the PTA login page
+  uid: ca30be98-ea95-4fbb-9962-df2d5c102b55
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I enter the correct credentials
+  uid: 997fbbcf-142a-4e94-a615-7e8c0df1aa7f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: i am granted access to the application
+  uid: 7f4777d8-d6b9-439a-96bb-984ec9f7a447
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Broker submits a Treaty Statement for Agreement and Central Processing
+  uid: 8590d70d-ec4e-4af3-984e-203a2c830dda
+  parameters:
+  - name: __datatable
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Treaty is placed with a single Bureau
+  uid: fd63b478-4e03-4b87-8d57-3a319593b55d
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Treaty is settled only in one currency
+  uid: c456575b-11d4-4141-93a1-9035498f0dca
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Treaty covers a single Risk Code
+  uid: f45ced75-ef50-435e-a321-b279edd3d01a
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Account is for one underwriting year
+  uid: 1dd88e51-3a4e-44a1-80bd-4a52fc66ff67
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Broker system generates an EBOT submission into DXC
+  uid: 2e39c65f-473f-496f-a7b6-e9ea24884b36
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Agreement Orchestration rules identify an Agreement Party
+  uid: b62353dc-4628-47d4-aa02-343ef17fa516
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: an Agreement Case is created in the PTA
+  uid: be688f50-c400-450c-94c3-137a2e08f4e6
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: there is an FDO in place
+  uid: 6a6a0d96-8dc3-46c2-81c1-ebf05b9ca02b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: that a valid e-mail exists on file for the Carrier
+  uid: 88134d45-6297-411f-bdbf-d37fc2be8e0c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Carrier is identified as an Agreement party
+  uid: 9ca0c542-d1f6-4376-999c-2f6126c3d4a0
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Carrier must receive e-mail notification with details of the assigned
+    case
+  uid: 6b688400-412b-42c1-98e2-df765e1863c1
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the system takes me to the home page
+  uid: 2ed0cb91-15a3-40ef-86c4-f5ed5bea7942
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I want to see a list of all pending tasks assigned to me
+  uid: edaf49b5-c960-49d3-a58d-4e1cafbabf5c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: a Search facility
+  uid: 6e381c08-f260-4cde-8e01-27296c7fa354
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: a Dash board area
+  uid: 564d3a0d-7db4-4164-a658-1b2c4f24e4a9
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: actions choice
+  uid: 97d26034-5c91-427b-b446-f647cbd09764
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: that my organisation has statements awaiting for agreement
+  uid: c041c21e-7dbf-439b-b81f-a01592f56090
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I access the home page of the PTA
+  uid: 643365b6-c34d-4fee-bc0f-937ce1890242
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I want to be presented with a list of all pending cases
+  uid: e1ec75b5-e7e3-439d-82a0-2a7b99500bf9
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: a summary of each statement
+  uid: 8c0fa74b-2bba-4714-8219-308f0fde3120
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I am logged on the PTA
+  uid: 89dad8c2-ae13-4b98-b8e2-4ff4ade001e1
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I am at the home page
+  uid: 4c6a059d-e7da-4741-950c-3d5b7da848d7
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the system should prioritise grouped submission where the whole group is ordered
+    by the presentation date of the oldest member
+  uid: fa9e2d6c-e26f-4066-9639-9bf9fba23d75
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: i specify some search criteria
+  uid: 1fb2963e-0447-4a4f-b7e9-23283465d753
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: press a search button
+  uid: 35660dcd-e304-413a-9297-a526005bc7c4
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I want to see the list of pending cases that match my search criteria
+  uid: 93357dc4-08df-4501-a7bc-d47eea963e7a
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I navigate to the dashboard area
+  uid: 715950ff-425c-45b8-8416-cacfd49b039f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the system must present the latest statistics for submissions where my organisation
+    has signed lines
+  uid: 0b123bf8-5cc8-4218-b211-5a61e7438da6
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: that I am in the dashboard area of the PTA
+  uid: d8eaeb37-a373-411e-b770-d54f5b90adde
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: there are existing statistics for open submissions
+  uid: 83363988-b57b-4c50-a3d2-a2af27aaa7be
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: click on any count different from zero
+  uid: b79fa0dd-33c3-4127-bfcf-a8dd750aeb89
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the system must take me to the home screen
+  uid: 55e658d5-ee92-430e-ba52-b374c07fe42c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: present a summarised list of statements matching the respective criteria
+  uid: 1d459bc4-06d5-468e-afcf-a14576d32a79
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: any statement that is currently not assigned to me will be presented in read-only
+    mode
+  uid: 8d1472cf-b508-4e16-99bb-9da4901ae165
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: any statement that is currently assigned to me will be presented in edit mode
+  uid: 2c15177a-f254-41a4-a9ab-c96c673acd1b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: that I am logged on the PTA application
+  uid: cddd951f-4ff5-4530-97b5-001f3e639633
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: there are one or more pending statements assigned to my organisation
+  uid: 15aa0cf8-9fd8-4560-8ecf-afdc5e30d480
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I have selected one or more statements
+  uid: e71199df-11e1-4acd-b2d8-65b53d7d9bdf
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: all selected statements are awaiting agreement
+  uid: 97467a86-82ff-4de4-badb-8ac6be7a7786
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the <<Agree>> button is active
+  uid: c1f53211-bab7-4ded-b351-b2dbc131de80
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I press the <<Agree>> button
+  uid: 530a2e32-63b7-4ed9-b3b3-d7a4d7081e34
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the system should process my agreement for all selected statements
+  uid: c541de89-21c4-4c0a-a552-b91539ce7fa7
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: notify the broker
+  uid: f3ce1170-e74a-4ad8-bc37-36aebd7cd341
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I am the only agreement party or the last party to action the case
+  uid: 37a0b368-c673-49dc-99b6-773018a27cc7
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: send the statement for processing to DXC
+  uid: 08694f17-6835-40cf-be6c-071dad9d561f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the <<Agree subject to>> button is active
+  uid: 02ca7e74-a961-400e-9aa0-516754b95495
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I press the <<Agree subject to>> button
+  uid: f6f2725f-c93a-448f-9c7d-7868cc529ce7
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the system should open up a pop-up screen to capture the subjectivity in a
+    narrative
+  uid: 7b9bc861-ce9c-43d3-8fbc-357b31c5f565
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I want the list order by presentation date with oldest item placed on top
+    of the list
+  uid: 7d819432-a4a6-4cf8-9c9d-b266f275b633
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the <<Query>> button is active
+  uid: dc2f16b3-5dba-4508-8d75-c6a6d40a3c09
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I press the <<Query>> button
+  uid: 94145349-7437-41bf-8b06-86dded53d08b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the system should open up a pop-up screen to capture the details of my query
+  uid: 96acda34-a9a0-4d3a-8c54-d4cf403281cb
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: i have pressed the <Query> button
+  uid: 735c94f0-4393-4047-9ad5-8208b62fba9f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the system opens up the Query details screen
+  uid: 7884d166-2614-4a9c-a145-dbe669bc5bdf
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I am offered with a choice of predefined query categories presented in a drop-down
+  uid: 1e999294-818f-4f39-a1bc-d0fb3d15e659
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I can enter the details of my query in a narrative field
+  uid: 98f837b8-4aea-46c9-a1ff-ffb24b5c14fc
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I can see an active button <Submit Query>
+  uid: 05485177-c37b-4f7a-9df8-e4c2fa52a201
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I can see an active button to cancel my entry
+  uid: 5b6c4feb-32c1-4702-911c-0f8ed8a1eba5
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I can see an active button to upload a document and associate it with my query
+  uid: 335f15fb-4115-461f-ae29-f4a14669890e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I am the Lead Agreement Party
+  uid: b46d1d02-60f7-45ea-8981-49c8336055d9
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I have opened Query details screen
+  uid: a25938f2-58d2-48c9-89b3-e7c1b8efa354
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I can see an active button <Add Document>
+  uid: d37b3644-7fa3-4eb7-a283-aa0efb8fc8ad
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I press the <Add document> buton
+  uid: edc91fdc-b8c9-4bce-ba97-7c8ff49b3be9
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the system must open a pop-screen to enable document upload
+  uid: 311b834d-773b-459f-ac2e-45b6dbe4e02d
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I must be able to browse for a document from my local machine
+  uid: d17a0745-345a-41e7-a884-f10a0a7051f3
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: select the document to be upload
+  uid: 82316b4b-836e-4357-b2c4-fb4189329ad5
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: see the name of the uploaded document
+  uid: fa9ccfff-c400-4b78-830d-31af9d8a0709
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: see name and the type of the file in read-only field
+  uid: fad94f09-ff6a-4a32-ac39-59cc8e3ea3da
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'add free text description of '
+  uid: d85bc033-4e7e-45fd-ab6e-b08b4ff7cc17
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: see an active button <<Upload>>
+  uid: 68e1fa98-ed20-4785-b45f-1eee38e1b9ac
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: see and active button <<Cancell>>
+  uid: aed18472-8345-4330-9727-eec59785eda6
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I have entered query details in the designated area of the application
+  uid: b7359c34-aa9b-43f1-acfb-1feb661713ba
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I have successfully uploaded one or more documents
+  uid: 2960871e-1793-490e-8113-b58ae9fa4e3f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the <Submit Query> button is active
+  uid: 20476d33-e22a-41f7-b511-8a8b4ce60690
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I press the <Submit Query> button
+  uid: f3b00405-ea77-46ae-92a8-778ee5a2c112
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: store any attached document on the IMR
+  uid: 8158cca0-372c-4ca2-a54c-3f0e0830e4fe
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: change the status of the submission to "p1"
+  uid: 212555ae-db11-4763-a089-94b429744715
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: register the query in PbS Query Portal
+  uid: 67499308-85b4-4277-9a48-d0af73007b5b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: trigger an ACORD L4 Business Query message to the Broker
+  uid: dab60b21-63d9-4905-8847-35e732ffcf59
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: send an e-mail notification to the Broker inline with existing PbS Query Portal
+    functionality
+  uid: 75142f9a-1933-466a-8f3d-135cf7448f6f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the <<View Details>> button is active
+  uid: d2f55246-040a-4e1a-bcff-907e8b907fbe
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I press the <<View Details>> button
+  uid: 5e088609-1eb2-4105-92d1-f0d786f9fafc
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the system should navigate me to a new screen where I can see the details
+    of all selected statements
+  uid: 8d089c1a-44fa-4196-bbf2-e82a7ce2db28
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: a Case for Agreement is assigned to my organisation
+  uid: 6b7336b5-437d-48dd-bb3e-f71b1416fccf
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I receive a notification I need to agree something
+  uid: 9f2c2353-68b8-443f-aa0d-48d052924fa4
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I want to be able to login in the Application
+  uid: 18e5f084-a724-495d-bfe2-47e22517f94b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: that I access the Home page of the PTA
+  uid: 148e6784-0aa5-4767-93b8-1309fd42945c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I want the table to include a column for the Treaty Number
+  uid: 8f74c6c0-1b70-4bbb-9a77-e9dd464c4367
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I want to see a list of all pending tasks assigned to me presented in a table
+  uid: 172d52f6-3b24-42f8-b2c3-928c11e9e40b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I see the list of pending cases on the home page
+  uid: 36cee880-b33f-4d5a-81f3-1d6ef660132f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I want the system to display the financial element to the Order of my organisation
+    by default
+  uid: 30476b92-4e9b-41dc-95c8-ddf475da3f23
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: to allow me to change the presentation to display the financial elements to
+    the Bureua order
+  uid: 5bab3c12-4d6f-4bd7-a28c-99a989c76db6
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: to allow me to change the presentation to the display the financial elements
+    for 100% Treaty Share
+  uid: ae7e08fa-c2e4-4014-9ff1-c9698a792846
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: update the values based on my selection
+  uid: 4fdf7ace-9959-43d8-9b1d-87e5f2a79f3f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I want the table to include a column for the Underwirting Year
+  uid: 08fc5c24-6ce0-4d69-8624-3b51cebb01c9
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I want the table to include a column for the UMR
+  uid: 772c97fc-5f2a-4e01-859c-96ff49b540ef
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I want the table to include a column for the Reinsured Name
+  uid: b68ccdad-c474-474d-908f-2bda1f537ea6
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I want the table to include a column for the Contract Section Reference
+  uid: 74413e47-3267-4cc1-aab7-86623e775808
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I want the table to include a column for the original (reference) currency
+  uid: fc9ad7b9-5b1d-47ae-9bec-5b86275f6805
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I want the table to include a column for the Net Premium Balance
+  uid: 9a85471f-7bf9-497f-8ace-2a3adf216580
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I want the table to include a column for the Net Claim Balance
+  uid: 31b0be21-4d1a-44c9-87b0-cf720ed8d915
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I want the table to include a column for the Statement Balance
+  uid: 0d567730-2736-4f56-a548-906af37e99fc
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I want the table to include a column for the Outstanding Loss amount
+  uid: 0ad572f8-9d73-479a-82dc-d8c07eb7f7c6
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I want the table to include a column for the Presentation date
+  uid: 8b37ebb7-e8cf-4852-a1e0-72e92827e1ea
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I want the table to include a column for the number of days until the statement
+    is auto-agreed
+  uid: b246ea75-ee48-43ee-9c59-4be0f77fca63
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I want the system to display the financial element in original currency by
+    default
+  uid: 1e44b0c6-78ea-40df-b9c6-e0992ef60620
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: to allow me to change the presentation to display the financial elements in
+    settlement currency
+  uid: 8957193d-8b14-4d3d-9e00-f469b1195c08
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: to allow me to change the presentation to the display the financial elements
+    in a nominated currency  where I can manually specify the FX rate
+  uid: d9038769-df46-4f92-9041-19508cfc216e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: display a warning message "p1" if the user selection is different from the
+    default value
+  uid: a9e5e47b-221f-4998-bdcb-5cfcba7f4498
+  parameters:
+  - name: p1
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the results will be sorted by presentation date
+  uid: eb3dc69d-dc92-4671-80b2-a9a8c0aa2103
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I can then sort the list by any of the columns
+  uid: f90e9b77-c752-4a12-bb48-ad029337933b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I want to be able to select one or more statements
+  uid: b37ae8f1-35cb-4f5f-af18-00d71e56ecba
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: be able to deselect one or more preselcted statements
+  uid: 710c2b72-2f14-47be-ad7f-66a4e92a3e31
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: be able to select all statements in the list with one action
+  uid: 75ded624-c2dd-4f5f-a73e-cb8c4fa0d6c9
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: " be able to deselect all previously selected statements with one action"
+  uid: 3bf6e8a9-10fb-41bd-bf90-2f539fd4c1bd
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I am presented with the login form
+  uid: 8c24ba9e-2b69-476d-a344-91eacdfd7112
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I am allowed to access the PTA
+  uid: 5ad4e74d-8b05-4d3f-bb4e-5cdb59116684
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'I enter an invalid username '
+  uid: 97965104-4d18-45ad-aa2d-60458ae45794
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'I enter an invalid password '
+  uid: cd115b11-b83f-496e-90a6-1d1094e31ad0
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: a message is displayed to inform me my credentials are not valid
+  uid: 7cb08cd1-3d7f-443b-a78f-5cc80ed875ac
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I not allowed to access the PTA
+  uid: 2b5fcfcc-fd61-4a4f-8940-0e95ace2811b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I enter a valid username
+  uid: 010cfdbd-7742-4780-8f40-9dd19c122524
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'I enter a valid password '
+  uid: 3981c35c-5bd4-4693-9f18-6bd780def2f4
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'I leave the username empty '
+  uid: b4e3e304-9a8a-4e90-ab87-a310f038b5fc
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I leave the password empty
+  uid: 6e14754a-bd13-432a-bf86-7c7ad1235370
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I am not allowed to access the PTA
+  uid: e098b03c-bbb1-425a-b94e-5cf9a17371ce
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'I enter a valid username '
+  uid: d2c361fb-0896-4561-ba9b-19452057a619
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'I submit the login form '
+  uid: 170df349-0083-4484-ac8e-027726c8a7c3
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I make a forgotten password request
+  uid: 4f7426d1-1c55-45a5-bc27-9e1a1eac1ecc
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I enter the email address associated with my account
+  uid: e9f45841-2d37-46fd-b7ff-6de44eca0ed8
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'submit the forgotten password form '
+  uid: ae8a3f77-4835-4e77-a20b-fea864e50163
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: an email will be sent to my email address with instructions on next steps
+    to retrieve my password
+  uid: c889c7e0-5edf-4711-8fa0-8e8c4749a804
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I enter an email that is not associated with my account
+  uid: f64f9b30-9aa1-462a-aaa5-f29490fb38d4
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: no email is received at the email address associated with the account
+  uid: 0a85e31e-c17c-423f-8786-e817eabcbe4c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I am on the statements pending agreement page
+  uid: 98a96ff2-7f38-4257-b049-74e6be890dbf
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'there are statements pending agreement assigned to my organisation '
+  uid: f1c2cc43-15f2-4cb3-b98e-f54ea067c3f1
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'a summary of each statement pending agreement are displayed in a list  '
+  uid: 9233e451-bdd6-4dd5-9a50-10f0c818d4f8
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the summarised statements contain the correct data elements
+  uid: 98bd617b-ffcd-4b11-aa6f-82b928323f01
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I can see a statement search section
+  uid: 9c387eb2-8a8f-4216-84a5-40abadc381e2
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I can see a list of statements pending agreement
+  uid: 8120bf2d-c13b-44db-8167-ca463a6d9c4e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I can see a link to the dashboard page
+  uid: fb778979-878a-4651-b5ff-ccb1ce74266d
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: there are no statements pending agreement assigned to the organisation
+  uid: ee81789c-6ee3-43f4-aac0-c562c75a7aa5
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the list of statements pending agreement is empty
+  uid: f276a5e7-510a-4a48-84b7-326254eebebf
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: there are statements pending agreement assigned to other organisations
+  uid: 7752e76f-a6fc-41d4-904f-4519d079612b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'the list contains only the statements pending agreement assigned to my organisation   '
+  uid: be254ec6-6a84-462e-afe3-846b4b2dfe29
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: there are statements that are not pending agreement assigned to my organisation
+  uid: 3c8782a0-3930-4175-a040-e26df1e23c2a
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: there statements of different types assigned to my organisation
+  uid: 9c7c6375-266c-4036-8248-c008f0737c36
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: there are statements of different types assigned to other organisations
+  uid: df5cbffa-6430-4643-bab2-c85e638ebd9c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'I select a single statement pending agreement '
+  uid: b2b639e6-93b7-4da0-8734-f581fda45ba8
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'a statement action is applied '
+  uid: afbea514-4e1e-4149-b21c-3b7b24b90767
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the action is applied to the single selected statement
+  uid: 83ee5cb3-626c-4f80-b674-35773665b4e2
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I select multiple statements
+  uid: b3bf4d70-fa05-40b6-8668-5b5f0f653459
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the action is only applied to the selected statements
+  uid: 067bca1d-1094-4b9d-8767-9fd0e04ff3b4
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the option to select all the statements is used
+  uid: eaa6020d-3429-4eac-a5c3-f937eb12dfc3
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I have selected a single statement
+  uid: 4b41c602-3fd6-40fd-abd8-1cc8accbc7c4
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'I deselect the statement '
+  uid: 4cb1dfa0-8a52-45c9-b23d-644a5e7774cb
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: no action is applied to the statements
+  uid: 4ec2e60b-5498-41ba-949b-cd364c7ab94f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'I have selected multiple statements '
+  uid: 521e0168-c3b4-4ecd-b537-83efb8daaac1
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'I deselect some of statements '
+  uid: 23fe1c6d-4006-4fd3-a619-209773f70ac1
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: " the oldest case will be at the top of the list"
+  uid: 554ae6c5-e408-46ae-b765-fa5005f9908d
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I choose to sort the list by UMR
+  uid: a71616aa-8ce5-4cac-a278-561b6a68f819
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the list of statements is displayed in UMR order
+  uid: ce98f589-b3e2-456c-801b-32287d900a9b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: I choose to sort the list by Treaty Number
+  uid: aceec89e-f59c-47e5-9723-b0a956e4d4d8
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the list of statements is displayed in Treaty Number order
+  uid: 83d7d76b-dbd8-4c08-9ea8-52f4e04d6b5f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: a list of available actions
+  uid: 5a08032f-3671-4b50-8b59-f463be3ef4ac
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the number of statements is over 100
+  uid: ac70e1b9-c132-47a0-aa56-cb5f03f27078
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the list of statements pending agreement contains all statements
+  uid: c1573990-15a3-4d06-869d-b67e355e25ef
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the statements pending agreement page renders correctly
+  uid: 6dbf2156-4f6b-418a-a8b6-ab3d716d202c
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: 'an action to agree statements is available '
+  uid: 099cfced-beec-4ac9-b0d5-31d3f5494531
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: an action to query statments is available
+  uid: 00451abc-7394-4e22-9d38-663e0c6d0b1f
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: an action to hold auto-agreement of statements
+  uid: 6a97f292-5814-4892-bbac-92f2ea22e516
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: an action to agree statements subject to copy
+  uid: 7b7e7aad-e6b9-400d-aded-2f3c61e9a374
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: a currency toggle will be available to allow the currency option to be changed
+  uid: 89ea3720-c91f-4a87-a482-82a36f8f75d6
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the currency toggle will be disabled
+  uid: eb5dad37-b334-44fb-88d8-c5c89b0886df
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: a shares toggle will be available to change the share options
+  uid: 783ed794-f29d-4cda-83f5-1dfb7c5f3a42
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the shares toggle will be disabled
+  uid: 0ed1e334-4842-4195-8c01-f0eb9e908c7b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
